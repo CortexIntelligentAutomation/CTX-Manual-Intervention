@@ -18,7 +18,7 @@ The module allows users to perform the following functionality:<Module Functiona
 
 ## Dependencies
 ### Cortex Version
-This version of the CTX-Manual-Intervention module was developed in Cortex version <Cortex Version>. Some functionality may not be available on different verions of Cortex.
+This version of the CTX-Manual-Intervention module was developed in Cortex version 6.4. Some functionality may not be available on different verions of Cortex.
 
 ### OCIs
 The  module requires the following Cortex OCIs:
@@ -36,6 +36,7 @@ The CTX-Manual-Intervention module has the following additional requirements whi
 
 ## Installation
 Details of the installation can be found in the [CTX-Manual-Intervention Deployment Plan](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/blob/master/CTX-Manual-Intervention%20-%20Deployment%20Plan.pdf).
+
 ## How to use
 A detailed User Guide has been provided with instructions on how to use the flows/subtasks, available [here](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/blob/master/CTX-Manual-Intervention%20-%20User%20Guide.pdf). Configuration of subtask inputs and outputs are detailed in notes on the subtask workspace.
 
