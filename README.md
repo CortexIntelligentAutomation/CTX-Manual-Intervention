@@ -37,6 +37,18 @@ The CTX-Manual-Intervention module has the following additional requirements whi
 ## Installation
 Details of the installation can be found in the [CTX-Manual-Intervention Deployment Plan](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/blob/master/CTX-Manual-Intervention%20-%20Deployment%20Plan.pdf).
 
+The steps to upgrade differ depending on whether the Logging Database was installed as a Partitioned or Non-Partitioned database. These are details in the Deployment Plan and the relefvant files for each can be found below:
+
+### Partitioned Logging Solution
+For upgrading the Logging Database to support Manual Intervention, the Stored Procedure must be updated with the [Stored Procedure Upgrade Script](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/CommitLog.sql).
+
+If the Logging Database was installed as a partitioned solution, you will also need to upgrade another stored procedure by running the [ProcessLog Stored Procedure Upgrade Script](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/usp_PART_ProcessLog.sql).
+
+### Non-Partitioned Logging Solution
+For upgrading the Logging Database to support Manual Intervention, the Stored Procedure must be updated with the [Stored Procedure Upgrade Script](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/CommitLog.sql).
+
+If the Logging Database was installed as a non-partitioned solution, you can modify the table directly with the [ProcessLog Upgrade Script](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/ProcessLog.Recreate.sql).
+
 ## How to use
 A detailed User Guide has been provided with instructions on how to use the flows/subtasks, available [here](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/blob/master/CTX-Manual-Intervention%20-%20User%20Guide.pdf). Configuration of subtask inputs and outputs are detailed in notes on the subtask workspace.
 
