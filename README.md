@@ -29,7 +29,7 @@ The  module requires the following Cortex OCIs:
 The CTX-Manual-Intervention module requires the following files:
 * [CTX-Manual-Intervention.studiopkg](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/CTX-Manual-Intervention.studiopkg)
 * [Additional LivePortal Files](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/LivePortal.Components.zip)
-* [SQL Updrage Scripcts](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/Upgrade.SQL.Scripts.zip)
+* [SQL Upgrade Scripts](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/Upgrade.SQL.Scripts.zip)
 
 
 ### Other
