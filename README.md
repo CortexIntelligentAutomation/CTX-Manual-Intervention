@@ -1,7 +1,7 @@
 # CTX-Manual-Intervention Cortex Module
-<No module description found in studiopkg>
+The Manual Intervention module for Cortex allows a user to interact with a process execution (via UI or email) without the process having to be initiated by a user. This means that a user can log in to the dashboard flow and see everything which needs their attention.
+This is done by pausing the process flow, and only triggering the relevant UI flow when the user requests it. The data is passed back to the main process flow which is then continued.
 
-The module allows users to perform the following functionality:<Module Functionality>
 
 ## Table of Contents
 1) [Dependencies](#dependencies)
@@ -28,6 +28,9 @@ The  module requires the following Cortex OCIs:
 ### Files
 The CTX-Manual-Intervention module requires the following files:
 * [CTX-Manual-Intervention.studiopkg](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/CTX-Manual-Intervention.studiopkg)
+* [Additional LivePortal Files](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/LivePortal.Components.zip)
+* [SQL Updrage Scripcts](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/Upgrade.SQL.Scripts.zip)
+
 
 ### Other
 The CTX-Manual-Intervention module has the following additional requirements which are explained in detail in the [Installation section](#Installation):
