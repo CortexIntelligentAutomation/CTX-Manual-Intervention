@@ -1,5 +1,6 @@
 # CTX-Manual-Intervention Cortex Module
 The Manual Intervention module for Cortex allows a user to interact with a process execution (via UI or email) without the process having to be initiated by a user. This means that a user can log in to the dashboard flow and see everything which needs their attention.
+
 This is done by pausing the process flow, and only triggering the relevant UI flow when the user requests it. The data is passed back to the main process flow which is then continued.
 
 
