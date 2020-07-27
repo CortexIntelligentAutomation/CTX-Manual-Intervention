@@ -10,6 +10,7 @@ This is done by pausing the process flow, and only triggering the relevant UI fl
     * [OCIs](#ocis)
     * [Files](#files)
     * [Other](#other)
+1) [Support and Warranty](#support-and-warranty)
 2) [Installation](#installation)
 3) [How to use](#how-to-use)
 4) [How you can contribute](#how-you-can-contribute)
@@ -37,6 +38,9 @@ The CTX-Manual-Intervention module requires the following files:
 The CTX-Manual-Intervention module has the following additional requirements which are explained in detail in the [Installation section](#Installation):
 * Cortex Audit Logging Solution
 * Cortex Config Store Solution
+
+## Support and Warranty 
+This module is supplied as a template that you can amend and extend to fit your requirements, as such it is not supported as part of the Cortex Product suite under the Cortex product support agreement.
 
 ## Installation
 Details of the installation can be found in the [CTX-Manual-Intervention Deployment Plan](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/blob/master/CTX-Manual-Intervention%20-%20Deployment%20Plan.pdf).
