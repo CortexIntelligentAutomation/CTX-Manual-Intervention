@@ -67,7 +67,7 @@ Unfortunately, we cannot offer pull requests at this time or accept any improvem
 CTX-Manual-Intervention has the following versions, starting with the most recent: v1.0
 Version | Release | Functionality | Notes
 ------------ | ------------- | ----------- | -----------
-v1.0 | 30/07/2021 | Manual Intervention - first full release | Created
+v1.0 | 18/10/2021 | Manual Intervention - first full release | Created
 
 ## Licensing
 All functionality within this module is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
