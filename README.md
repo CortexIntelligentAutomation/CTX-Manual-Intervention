@@ -44,8 +44,8 @@ The  module requires the following Cortex OCIs:
 
 ### Files
 The CTX-Manual-Intervention module requires the following files:
-* [CTX-Manual-Intervention.studiopkg](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/CTX-Manual-Intervention.studiopkg)
-* [CTX-Manual-Intervention-Components.zip](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/v1.0/CTX-Manual-Intervention-Components.zip)
+* [CTX-Manual-Intervention.studiopkg](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/1.0/CTX-Manual-Intervention.studiopkg)
+* [CTX-Manual-Intervention-Components.zip](https://github.com/CortexIntelligentAutomation/CTX-Manual-Intervention/releases/download/1.0/CTX-Manual-Intervention-Components.zip)
 
 ### Other
 The CTX-Manual-Intervention module has the following additional requirements which are explained in detail in the [Installation section](#Installation):
